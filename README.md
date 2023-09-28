@@ -19,7 +19,7 @@ In human-AI collaboration systems for critical applications, in order to ensure 
 
 
 ## Overview
-1. [Prepration](#Preparation)
+1. [Preparation](#Preparation)
     1. [Requirements](#Requirements)
     2. [Setup "Weights and Biases"](#wandb)
     3. [Set paths](#paths)
