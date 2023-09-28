@@ -25,7 +25,7 @@ In human-AI collaboration systems for critical applications, in order to ensure 
     3. [Set paths](#paths)
     4. [Download Data](#data)
 2. [Code organisation](#code)
-3. [Training and evaluation for in-distribution experiment](#traineval)
+3. [Training and evaluation for in-distribution experiments](#traineval)
     1. [Launch the training + evaluation](#launchtraineval)
     2. [Run only evaluation on test set](#eval)
 4. [Evaluation for OOD experiments](#ood)
