@@ -120,7 +120,7 @@ E.g. to run training and evaluation on CIFAR100 with Wide-ResNet-10-28 (all the 
 conda activate aucocloss
 python -u main.py --base_config_file cifar100_wide_resnet_28 --loss_config_file auc_secondary_bw_CE_l1
 ```
-base_config_file with "LT", e.g. cifar100_LT_002, specify the long-tailed experiments.
+`base_config_file` with "LT", e.g. `cifar100_LT_002`, specify the long-tailed experiments.
 
 ### 3.2. Run only evaluation on test set<a name="eval"></a>
 ```bash
