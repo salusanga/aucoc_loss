@@ -1,0 +1,25 @@
+# Model
+net_type: "wide_resnet_28"
+dropout_rate: 0.0
+depth: 28
+widen_factor: 10
+
+# Training
+optimizer: "SGD"
+momentum: 0.9
+base_lr: 0.1
+num_epochs: 200
+weight_decay: 0.0005
+milestones: [60, 120, 160]
+gamma: 0.1
+
+# Dataset
+dataset: "cifar100_LT_001"
+imbalance_ratio: 0.01
+num_classes: 100
+batch_size: 512 # 512
+crop_size_train: 32
+crop_pad_train: 1
+val_set_perc: 0.1
+
+

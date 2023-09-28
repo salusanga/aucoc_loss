@@ -1,0 +1,5 @@
+loss_type: "auc_secondary_bw"
+primary_loss_type: "cross-entropy"
+model_name: "auc_secondary_bw_l4"
+gamma: 0.1
+lamda: 4.0

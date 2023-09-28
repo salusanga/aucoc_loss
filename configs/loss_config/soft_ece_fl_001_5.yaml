@@ -1,0 +1,5 @@
+loss_type: "soft_ece"
+primary_loss_type: "focal-loss"
+model_name: "soft_ece_fl_001_5"
+temp_soft_ece: 0.01
+lamda: 5.0

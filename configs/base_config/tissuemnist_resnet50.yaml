@@ -1,0 +1,11 @@
+# Model
+net_type: "resnet50"
+optimizer: "Adam"
+base_lr: 0.001
+num_epochs: 100
+milestones: [50, 75]
+gamma: 0.1
+
+# Dataset
+dataset: "tissuemnist"
+batch_size: 512

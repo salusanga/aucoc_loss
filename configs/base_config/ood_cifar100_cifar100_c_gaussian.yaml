@@ -1,0 +1,17 @@
+# Model
+net_type: "wide_resnet_28"
+depth: 28
+widen_factor: 10
+
+# Dataset
+dataset: "cifar100"
+num_classes: 100
+batch_size: 512
+crop_size_train: 32
+crop_pad_train: 1
+val_set_perc: 0.1
+
+# Dataset ood
+dataset_ood: "cifar100_c"
+cifar_all: 0
+corruption_type: gaussian_noise

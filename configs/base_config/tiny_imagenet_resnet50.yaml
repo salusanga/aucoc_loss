@@ -1,0 +1,15 @@
+# Model
+net_type: "resnet50"
+optimizer: "SGD"
+momentum: 0.9
+base_lr: 0.1
+num_epochs: 100
+weight_decay: 0.0005
+milestones: [40, 60]
+gamma: 0.1
+
+# Dataset
+dataset: "tiny-imagenet"
+batch_size: 512
+val_set_perc: 0.1
+num_classes: 200

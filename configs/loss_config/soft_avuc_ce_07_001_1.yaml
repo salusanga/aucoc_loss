@@ -1,0 +1,6 @@
+loss_type: "soft_avuc"
+primary_loss_type: "cross-entropy"
+model_name: "soft_avuc_ce_07_001_1"
+k_savuc: 0.7
+temp_savuc: 0.01
+lamda: 1.0

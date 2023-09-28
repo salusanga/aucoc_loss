@@ -1,0 +1,8 @@
+ # Setup paths for local machine
+  datasets_path: "" # Insert path to datasets
+  checkpoints_path: "" # Insert path to checkpoints
+  plots_path : "" # Insert path to plots
+  base_config_path : "configs/base_config/"
+  loss_config_path : "configs/loss_config/"
+  dir_wandb : "" # Insert path to wandb folder
+  

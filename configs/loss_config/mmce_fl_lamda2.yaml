@@ -1,0 +1,4 @@
+loss_type: "mmce"
+primary_loss_type: "focal-loss"
+model_name: "mmce_fl_lamda2"
+lamda: 2.0

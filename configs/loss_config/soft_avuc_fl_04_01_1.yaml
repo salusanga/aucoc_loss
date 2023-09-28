@@ -1,0 +1,6 @@
+loss_type: "soft_avuc"
+primary_loss_type: "focal-loss"
+model_name: "soft_avuc_fl_04_01_1"
+k_savuc: 0.4
+temp_savuc: 0.1
+lamda: 1.0

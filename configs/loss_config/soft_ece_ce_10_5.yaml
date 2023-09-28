@@ -1,0 +1,5 @@
+loss_type: "soft_ece"
+primary_loss_type: "cross-entropy"
+model_name: "soft_ece_ce_10_5"
+temp_soft_ece: 10.0
+lamda: 5.0
