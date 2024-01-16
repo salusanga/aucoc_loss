@@ -12,8 +12,6 @@ from utils.load_save_checkpoint import load_checkpoint, save_checkpoint, load_mo
 from metrics.calculate_ece_metrics import calculate_ECE_metrics
 from metrics.metrics import compute_auc
 from loss_functions.compute_loss import compute_loss
-from loss_functions.baselines.avuc import entropy
-
 
 class Trainer:
     def __init__(self, settings, train_loader, val_loader):
