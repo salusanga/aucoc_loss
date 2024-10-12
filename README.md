@@ -146,7 +146,7 @@ Where `base_config_file` must be one among:
 
 ## 5. Contact<a name="contact"></a>
 
-For any questions, suggestions, or issues with the code, please contact Sara at: sara.sangallii@vision.ee.ethz.ch.
+For any questions, suggestions, or issues with the code, please contact Sara at: sara.sangalli@vision.ee.ethz.ch.
 
 
 ## 6. How to cite<a name="6-how-to-cite"></a>
